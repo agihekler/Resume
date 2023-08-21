@@ -1,9 +1,9 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Verdana', Segoe UI, Geneva, Tahoma, sans-serif;
     font-size: 12px;
     max-width: 960px;
     margin: auto;
-    background-color: lightblue;
+    background-color: rgb(213, 235, 243);
     
 }
 
@@ -12,6 +12,7 @@ h1 {
     letter-spacing: .6em;
     padding-top: 1em;
     padding-bottom: 1em;
+    background-color: rgb(2,2,92);
 }
 
 h2 {
@@ -25,7 +26,7 @@ h3 {
 }
 main { 
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 50% 50%;
     margin-top: 3em;
 }
 
@@ -49,8 +50,8 @@ p {
 
 hr {
     border: none;
-    background-color: black;
-    height: 1px;
+    background-color: rgb(2, 2, 92);
+    height: 2px;
 }
 
 h1, h2, h3 {
@@ -59,6 +60,6 @@ h1, h2, h3 {
 }
 
 #mainLeft {
-    border-right: 1px solid black;
+    border-right: 2px solid rgb(2, 2, 92);
 }
 
